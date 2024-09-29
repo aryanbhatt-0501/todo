@@ -1,10 +1,15 @@
 import React from 'react';
 import './index.css';
 
-function sidebar() {
+function Sidebar(props) {
   return (
-    <div className='sidebarContainer'>sidebar</div>
+    <div className='sidebarContainer'>
+      <h1>My Dashboard</h1>
+      <button onClick={props.handleAllTasks}>All tasks</button>
+      <button>Create a task</button>
+      <button>Delete a task</button>
+    </div>
   )
 }
 
-export default sidebar
+export default Sidebar

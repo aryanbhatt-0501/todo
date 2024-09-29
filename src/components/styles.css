@@ -1,0 +1,13 @@
+.taskCard {
+    background-color: antiquewhite;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

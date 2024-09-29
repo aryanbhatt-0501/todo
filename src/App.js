@@ -1,11 +1,12 @@
 import Dashboard from './views/dashboard';
+import Navbar from './views/navbar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>header</p>
+        <Navbar />
       </header>
       <body className='App-body'>
         <Dashboard />

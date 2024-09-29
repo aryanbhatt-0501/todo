@@ -6,10 +6,13 @@
 .App-header {
   background-color: rgb(85, 83, 80);
   height: 10vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .App-body {
-  background-color: rgb(243, 218, 178);
+  background-color: rgb(190, 212, 244);
   height: 80vh;
   width: 100vw;
 }
