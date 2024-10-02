@@ -1,3 +1,16 @@
+.btn {
+    display: flex;
+}
+
+.btn-primary {
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #2a2b2d;
+    border: 2px solid #2a2b2d;
+    cursor: pointer;
+}
+
 .dashboardContainer {
     display: flex;
     height: 100%;
@@ -6,8 +19,9 @@
 
 .sidebarContainer {
     display: flex;
-    padding: 5%;
     flex-direction: column;
+    gap: 8px;
+    padding: 5%;
     width: 20vw;
     height: 100%;
 }

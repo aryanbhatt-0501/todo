@@ -11,3 +11,17 @@
     flex-direction: column;
     gap: 10px;
 }
+
+.dialogContent {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 400px;
+    width: 500px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}

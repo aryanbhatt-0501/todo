@@ -20,9 +20,7 @@ const AllTasks = () => {
     
         getTasks();
     }, []);
-
-    console.log('tasks');
-    console.log(tasks);
+    
     if (loading) {
         return <span>Loading...</span>
     }

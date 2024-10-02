@@ -3,7 +3,7 @@ import AbcIcon from '@mui/icons-material/Abc';
 
 const navbar = () => {
   return (
-    <div>Team name {<AbcIcon sx={{color: '#fff'}} />}</div>
+    <div>Todos.. {<AbcIcon sx={{color: '#fff'}} />}</div>
   )
 }
 
