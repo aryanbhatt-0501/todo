@@ -14,7 +14,7 @@
 
 .dialogContent {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     padding: 10px;
     height: 400px;
     width: 500px;
@@ -24,4 +24,13 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer input {
+    margin-left: 8px;
 }
